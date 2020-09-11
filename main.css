@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #FF0099;
+    --second-color: #FAFF00;
+    --black-color: #111;
+    --text-color: #333;
+    --transition: transition all .21s ease-in-out;
+    
+    }
 body{
     font-family: 'Rubik', sans-serif;
-    font-size: 1.3rem;±
+    font-size: 1.3rem;
+}
+
+.wrap{
+    max-width: 72vw;
+    margin:0 auto;
+    background: pink;
+}
+
+.inner{
+    background-image: url(/assets/header-bg-collab.jpg);
+    background-size: cover;
+    height:750px;
+    text-align: center;
 }
