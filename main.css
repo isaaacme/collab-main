@@ -126,3 +126,34 @@ top: -70px;
 mix-blend-mode: hard-light;
 }
 
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer img{
+    width:24px;
+    height: 24px;
+    position: relative;
+    top:5px;
+    left:6px;
+}
+
+footer svg{
+    position: relative;
+    top:6px;
+    left:6px;
+}
+footer svg path{
+    transition: var(--animation);
+}
+footer svg path:hover{
+    fill:cornflowerblue;
+
+}
