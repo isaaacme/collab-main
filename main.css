@@ -162,3 +162,9 @@ footer svg{
 
 
 /*mobile styles*/
+
+@media only screen and (max-width: 425px) {
+    .intro , .value{
+       grid: 1fr / 1fr;
+    }
+  }
