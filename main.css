@@ -39,6 +39,7 @@ section{
 
 .inner{
     background-image: url(/assets/header-bg-collab.jpg);
+    height:65vh;
     background-size: cover;
     background-position: center center;
     text-align: center;
