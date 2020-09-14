@@ -39,7 +39,7 @@ section{
 
 .inner{
     background-image: url(/assets/header-bg-collab.jpg);
-    height:65vh;
+    height:75vh;
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -48,19 +48,17 @@ section{
     align-items: center;
     justify-content: center;}
 
-header img{
-    width: 42vw;
-}
+
 
 header h1{
     position: relative;
-    top: 15rem;
-    font-size: 2rem;
+    top: 9rem;
+    font-size: 1.8rem;
     letter-spacing: 2px;
     font-weight: 400;
     color: var(--second-color);
     text-shadow: var(--text-shadow);
-    width: 30vw;
+    width: 46vw;
 }
 
 .intro{
@@ -162,13 +160,15 @@ footer a:hover{transform: var(--tilt-right); text-decoration: underline; backgro
 
     .inner {
         background-image: url(/assets//header-bg-collab-mobile.png);
+        background-position: bottom center;
         background-size: cover;
-        height: 30vh;
+        height: 75vh;
     }
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         width:90vw;
-        top:6rem;
+        top:4.5rem;
+        text-shadow: 2px 2px #111;
     }
     img{width: 85vw;}
     .link{width: auto;
