@@ -183,7 +183,7 @@ footer a:hover{transform: var(--tilt-right); text-decoration: underline; backgro
         display: none;
     }
     h2{
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     section {
