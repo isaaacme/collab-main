@@ -85,6 +85,9 @@ header h1{
     transform: var(--counterclockwise);
 }
 
+.content{
+    align-self: center;
+}
 
 .link{
     border:0;
