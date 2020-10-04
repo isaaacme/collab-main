@@ -163,7 +163,7 @@ footer a:hover{transform: var(--tilt-right); text-decoration: underline; backgro
 
     .inner {
         background-image: url(/assets//header-bg-collab-mobile.png);
-        background-position: bottom center;
+        background-position: top center;
         background-size: cover;
         height: 75vh;
     }
